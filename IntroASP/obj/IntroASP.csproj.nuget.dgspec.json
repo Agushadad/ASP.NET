@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agush\\Documents\\Proyectos\\ASP.NET\\ASP.NET\\IntroASP\\IntroASP.csproj": {}
+    "C:\\Users\\agush\\OneDrive\\Documentos\\Proyectos\\ASP.NET\\IntroASP\\IntroASP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agush\\Documents\\Proyectos\\ASP.NET\\ASP.NET\\IntroASP\\IntroASP.csproj": {
+    "C:\\Users\\agush\\OneDrive\\Documentos\\Proyectos\\ASP.NET\\IntroASP\\IntroASP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agush\\Documents\\Proyectos\\ASP.NET\\ASP.NET\\IntroASP\\IntroASP.csproj",
+        "projectUniqueName": "C:\\Users\\agush\\OneDrive\\Documentos\\Proyectos\\ASP.NET\\IntroASP\\IntroASP.csproj",
         "projectName": "IntroASP",
-        "projectPath": "C:\\Users\\agush\\Documents\\Proyectos\\ASP.NET\\ASP.NET\\IntroASP\\IntroASP.csproj",
+        "projectPath": "C:\\Users\\agush\\OneDrive\\Documentos\\Proyectos\\ASP.NET\\IntroASP\\IntroASP.csproj",
         "packagesPath": "C:\\Users\\agush\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agush\\Documents\\Proyectos\\ASP.NET\\ASP.NET\\IntroASP\\obj\\",
+        "outputPath": "C:\\Users\\agush\\OneDrive\\Documentos\\Proyectos\\ASP.NET\\IntroASP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\agush\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,8 @@
               "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
             }
@@ -55,7 +57,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
